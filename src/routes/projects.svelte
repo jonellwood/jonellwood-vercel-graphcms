@@ -1,9 +1,11 @@
 <script context="module">
+  import { variables } from '../components/variables';
   import { gql, GraphQLClient } from 'graphql-request'
 
   export async function load() {
     const graphcms = new GraphQLClient(
-      import.meta.env.VITE_GRAPHCMS_URL,
+      // import.meta.env.VITE_GRAPHCMS_URL,
+      variables.VITE_GRAPHCMS_URL,
       {
         headers: {},
       }
