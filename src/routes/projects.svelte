@@ -1,4 +1,4 @@
-<!-- <script context="module">
+<script context="module">
   import { gql, GraphQLClient } from 'graphql-request'
 
   export async function load() {
@@ -109,4 +109,4 @@
       height: 50px;
     }
   }
-</style> -->
+</style>
