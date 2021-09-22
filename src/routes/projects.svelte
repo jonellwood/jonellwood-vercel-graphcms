@@ -10,7 +10,7 @@
     )
 
     const query = gql`
-      query PostsIndex {
+      query {
         posts {
           id
           title
